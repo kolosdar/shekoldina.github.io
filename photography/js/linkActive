@@ -1,0 +1,1 @@
+var menu__links = document.getElementsByClassNames("menu__link");
