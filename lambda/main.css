@@ -1,0 +1,646 @@
+
+.html__page {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+.header__background {
+	background: url(img/header.png) no-repeat center top / cover;
+	 /* box-shadow: inset 0 0 200px; */
+	height: 100vh;
+	
+	width: 100%;
+}
+.container {
+	width: 78.125%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding: 7.142% 0;
+	max-width: 1600px;
+}
+.header__container {
+	padding: 0%;
+	
+}
+.header__logo {
+	width: 12.5%;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+.logo-lambda {
+	max-width: 100%;
+}
+
+.menu__item {
+	opacity: 1;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 0 0 5.38% 5%;
+	font-size: 1.3125em;
+	font-family: 'Gentium Book Basic', serif;
+	line-height: 4;
+	text-align: justify;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	transform: scale(1);
+	transition: all .25 ease-in-out;
+}
+
+.menu__item:hover {
+  opacity: .8;
+  transform: scale(.95);
+}
+.top-header {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.menu {
+	width: 50%;
+	margin-right: 2%;
+	padding-top: 2%;
+	align-self: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.content {
+	font-family: 'Gentium Book Basic', serif;
+	text-decoration: none;
+	text-align: center;
+	width: 45.71%;
+	box-sizing: border-box;
+	padding: 0 5%;
+}
+.content__text {
+	line-height: 1.5;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+.header__content {
+	width: 99.64%;
+	margin-top: 10%;
+	text-align: center;
+
+}
+.content__title {
+	font-family: 'Yeseva One', cursive;
+	color: white;
+	text-decoration: none;
+	font-size: 2.25em;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+.content__title_margin-top {
+	margin-top: 15%;
+}
+.content__title_90px {
+	font-size: 5.2em;
+}
+.content__divider {
+	padding: 3% 0 5%;
+	text-align: center;
+}
+.content__text {
+	padding-bottom: 6.4%;
+}
+.menu__button {
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	border: none;
+	border-radius: 3px;
+	margin-top: 4.867%;
+	padding: 1.8% 0;
+	text-transform: uppercase;
+	color: white;
+	width: 25%;
+}
+
+.menu__button:hover {
+  outline: none;
+  opacity: 1;
+  box-shadow: 0 0 12px rgba(255, 255, 255, .9);
+}
+.menu__button_black {
+	background-color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .2);
+}
+.menu__button_white {
+	background-color: rgba(255, 255, 255, 0.3);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+.shef__background {
+	background: url(img/about.png) no-repeat center top / cover;
+	width: 100%;
+}
+.shef__container {
+	padding-top: 0%;
+}
+.shef__content {
+	margin-top: 7.142%;
+}
+
+.content__title_gold {
+	color: #cc9900;
+}
+.content__icon {
+	width: 100%;
+}
+.shef__content-icon {
+	width: 47.7%;
+	margin-left: 30%;
+}
+.poster {
+	max-width: 100%;
+}
+.shef__poster {
+	margin-top: 3%;
+	width: 50%; 
+}
+.poster__dish {
+	max-width: 95%;
+}
+
+.poster__ingredient {
+	max-width: 33.33333%;
+}
+.poster__reservations {
+	max-width: 25%;
+}
+.menu-item {
+	padding-bottom: 5.38%;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+.line {
+	border: none; /* Убираем границу */
+    background-color: #cc9900; /* Цвет линии */
+    color: #cc9900; /* Цвет линии для IE6-7 */
+    height: 1px; 
+}
+.menu-item__title {
+	font-family: 'Yeseva One', cursive;
+	float: left;
+}
+.menu-item__price {
+	float: right;
+}
+.menu-item__text {
+	text-align: justify;
+}
+.menu-item__price, .menu-item__title {
+	text-align: justify;
+	display: inline-block;
+}
+.menu-item__divider {
+	clear: both;
+}
+.ingredients__background {
+	background: url(img/ingredients.png) no-repeat center top / cover;
+	width: 100%;
+
+}
+.ingredients__container {
+	flex-direction: row-reverse;
+} 
+
+.ingredients__content {
+	font-family: 'Gentium Book Basic', serif;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 5%;
+	margin-right: 2.857%;
+}
+.content__text_white {
+	color: white;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .2);
+}
+
+.reviews__backgrond {
+	background: url(img/reviews.png) no-repeat center top / cover;
+}
+
+.reviews__content {
+	margin: 0 auto;
+}
+
+.reservations__background {
+	background: url(img/reservation.png) no-repeat center top / cover;
+}
+.booking-form {
+	font-family: 'Open Sans', sans-serif;
+}
+.booking-form__container {
+	width: 100%;
+	justify-content: space-around;
+}
+
+.booking-form__item {
+	text-align: justify;
+	margin-top: 4.15%;
+	font-family: 'Gentium Book Basic', serif;
+}
+.booking-form__input {
+	border-color: #cc9900;
+	padding: 5%;
+	  opacity: .4;
+  border-width: thin;
+  border-radius: 2px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.booking-form__input:hover {
+  outline: none;
+  opacity: 1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .9);
+}
+
+.booking-form__button {
+	cursor: pointer;
+	margin-top: 8%;
+	padding: 2% 0%;
+	border: none;
+	background-color: #cc9900;
+	text-align: center;
+	width: 45%;
+	font-size: 1em;
+	border-radius: 2px;
+  opacity: .8;
+  font-weight: bold;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.booking-form__button:hover {
+  outline: none;
+  opacity: 1;
+  box-shadow: 0 0 12px rgba(255, 255, 255, .9);
+}
+
+.booking-form__button:focus, 
+.booking-form__button:focus, 
+.booking-form__button:visited,
+.booking-form__input:focus, 
+.booking-form__input:focus, 
+.booking-form__input:visited,
+.menu__button:focus, 
+.menu__button:focus, 
+.menu__button:visited {
+  outline: none;
+}
+
+.booking-form__button:active {
+  border: none;
+  outline: none;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.footer__background {
+	background-color: black;
+}
+.content__title_21px {
+	font-size: 1.3125em;
+}
+.footer__content {
+	width: 33.33333%;
+}
+
+@media only screen and (min-width: 1800px) {
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) and (orientation: landscape) {
+	
+.menu {
+	width: 60%;
+}
+.menu__item { 
+	font-size: 1.2em;
+	line-height: 1;
+}
+.header__content {
+	margin-top: 3%;
+}
+.content__title_margin-top {
+	margin-top: 30%;
+}
+.content__title_90px {
+	font-size: 4em;
+}
+.menu__button {
+	width: 45%;
+	font-size: 1.2em;
+}
+.shef__poster {
+	margin-top: 10%;
+}
+
+.booking-form__item, .booking-form__input, .booking-form__button {
+	width: 100%;
+	font-size: 1.3em;
+}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) and (orientation: portrait) {
+.container , .header__container {
+	width: 100%;
+}
+
+.menu {
+	width: 60%;
+}
+
+.content__title_margin-top {
+	margin-top: 30%;
+}
+
+.header__content {
+	margin-top: 20%;
+}
+.menu__item { 
+	font-size: 1.1em;
+	line-height: 1;
+}
+.menu__button {
+	font-size: 1.5em;
+}
+.content__title {
+	font-size: 2.5em;
+}
+.content__title_90px {
+	font-size: 4em;
+}
+.shef__poster {
+	margin-top: 10%;
+}
+.content__text, .menu-item__text {
+	font-size: 1.3em;
+}
+.booking-form__item, .booking-form__input, .booking-form__button {
+	width: 100%;
+	font-size: 1.3em;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 899px) and (orientation: landscape) {
+	.container {
+	width: 90%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.menu__item { 
+	font-size: 1em;
+	line-height: 1;
+}
+.header__content {
+	margin-top: 4%;
+}
+.content__title {
+	font-size: 2em;
+}
+.content__title_90px {
+	font-size: 2.7em;
+}
+.shef__poster {
+	display: none;
+}
+.menu__button {
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 3%;
+	display: inline-block;
+	padding: 4% 0;
+}
+.content {
+	width: 90%;
+	text-align: center;
+}
+.content__text, .menu-item__text {
+	line-height: 1;
+	font-size: 1.2em;
+}
+.ingredients__content {
+	margin: 0 auto;
+}
+.container .content__icon__container {
+	flex-direction: row;
+	justify-content: space-around;
+}
+.poster__reservations {
+	display: none;
+}
+.booking-form__item, .booking-form__input {
+	width: 100%;
+}
+}
+
+/* iPads (вертикальная и горизонтальная) ----------- */
+@media only screen and (min-width: 600px) and (max-width: 899px) and (orientation: portrait){
+/* стили */
+.container {
+	width: 90%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.menu {
+	width: 65%;
+}
+.menu__item { 
+	font-size: 1em;
+	line-height: 1;
+}
+.content__title_margin-top {
+	margin-top: 35%;
+}
+.header__content {
+	margin-top: 20%;
+}
+.content__title_90px {
+	font-size: 8em;
+}
+.shef__poster {
+	display: none;
+}
+.menu__button {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 3%;
+	display: block;
+	padding: 4% 0;
+}
+.content {
+	width: 90%;
+	text-align: center;
+}
+.content__title {
+	font-size: 2em;
+}
+.content__text, .menu-item__text {
+	line-height: 1;
+	font-size: 1.2em;
+}
+.ingredients__content {
+	margin: 0 auto;
+}
+.container .content__icon__container {
+	flex-direction: row;
+	justify-content: space-around;
+}
+.poster__reservations {
+	display: none;
+}
+.booking-form__item, .booking-form__input {
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 599px) and (orientation: landscape) {
+	.container, .header__container {
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.header__logo {
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+.header__menu {
+	margin-top: 4%;
+	width: 100%;
+	text-align: center;
+}
+.menu__item { 
+	font-size: 0.8em;
+	line-height: 1;
+}
+.header__content {
+	margin-top: 15%;
+}
+.content__title_90px {
+	display: none;
+}
+.header__content .content__divider, .shef__poster {
+	display: none;
+}
+.menu__button {
+	font-size: 1em;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 3%;
+	padding: 2% 0;
+}
+.content {
+	margin: 0 auto;
+	margin-top: 7%;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.content__title {
+	font-size: 1.5em;
+}
+.content__text {
+	line-height: 1;
+	font-size: 1em;
+}
+.poster__reservations {
+	display: none;
+}
+.container .content__icon__container {
+	flex-direction: row;
+	justify-content: space-around;
+}
+.booking-form__item, .booking-form__input {
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 599px) and (orientation: portrait) {
+/* стили */
+.container{
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.top-header {
+	flex-flow: column wrap;
+}
+.logo {
+	align-self: center;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.menu {
+	display: block;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+.header__menu {
+	width: auto;
+	text-align: center;
+}
+.menu__item { 
+	font-size: 1em;
+	line-height: 1.5;
+}
+.header__content {
+	margin-top: 15%;
+}
+.content__title_90px {
+	display: none;
+}
+.header__content .content__divider, .shef__poster {
+	display: none;
+}
+.menu__button {
+	margin-top: 40%;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 3%;
+	display: block;
+	padding: 4% 0;
+}
+.menu__button_black {
+	margin-top: 80%;
+}
+.content {
+	width: 100%;
+	text-align: center;
+}
+.content__title {
+	font-size: 1.5em;
+}
+.content__text {
+	line-height: 1;
+	font-size: 1em;
+}
+.poster__reservations {
+	display: none;
+}
+.booking-form__item, .booking-form__input {
+	width: 100%;
+}
+}
