@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+.catalog {
+	width: 70%;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.catalog__item {
+	width: 300px;
+	height: 30%;
+	border: 2px solid #E2E2E2;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 10px 10px rgba(0,0,0, 0.2);
+}
+
+img {
+	width: 300px;
+	height: 205px;
+	border-bottom: 2px solid #E2E2E2;
+}
+
+.catalog__content {
+	margin: 30px 25px;
+}
+
+.catalog__content-title, 
+.catalog__content-price-amount {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #333333;
+}
+
+.catalog__content-title {
+	font-size: 20px;
+}
+
+.catalog__content-text {
+	margin-top: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #666666;
+}
+
+.catalog__content-price-amount {
+	font-size: 35px;
+}
+
+.catalog__content-price-rub {
+	margin-left: 5px;
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.catalog__content-price-info,
+.catalog__content-footer  {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.catalog__content-footer {
+	margin-top: 30px;
+}
+
+.catalog__content-basket {
+	width: 50px;
+	height: 40px;
+	background-color: #4ED17B;
+	border: none;
+	border-radius: 3px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.basket {
+	width: 25px;
+	height: 20px;
+}
+
+.catalog__content-basket:hover {
+	opacity: 0.8;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.catalog {
+		width: 100%;
+		flex-flow: column wrap;
+	}
+
+	.catalog__item {
+		margin-top: 30px;
+	}
+}
